@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+#filmForm{
+   padding: 10px;
+   margin: 10px;
+}
+#search{
+    margin: 20px;
+}
+
+.modal{
+
+display: none;
+}
+.active{
+display: block;
+}
+.buttons{
+display: flex;
+gap: 20px;
+padding: 10px;
+margin: 10px;
+}
+button{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+    border-radius: 5px;}
+    
+input{
+margin: 10px;
+background: transparent;
+border-radius: 5px;
+
+}
+label{
+
+color:#f58a67;
+}
+table{
+border: 1px solid black;
+border-collapse: collapse;
+margin: 20px;
+width: 50%;
+text-align: center;
+background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+border-radius: 5px;
+}
+thead th{
+border: 1px solid black; 
+
+}
+tbody td{
+border: 1px solid black; 
+}
+#category{
+margin: 10px;
+background: transparent;
+border-radius: 5px;
+border: 1.8px solid black;
+width: 177px;
+height: 21px;
+}

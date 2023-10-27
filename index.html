@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="buttons">
+        <button id="add">Open</button>
+        <button id="save">Save</button>
+        <button id="edit">edit</button>
+        
+    </div>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+    <div class="container">
+        <div class="modal">
+            <form id="filmForm">
+                <label for="image">Image</label><br>
+                <input id="image" type="text"><br>
+                <label for="filmName">Film adi</label><br>
+                <input id="filmName" type="text"><br>
+                <label for="imdb">Film imdb</label><br>
+                <input id="imdb" type="number"><br>
+                <label for="category">Category</label><br>
+                <select name="" id="category">
+                    <option value="horror">horror</option>
+                    <option value="drama">drama</option>
+                    <option value="comedy">comedy</option>
+                    <option value="action">action</option>
+                </select><br><br>
+                <label for="rejisor">Rejisor</label><br>
+                <input id="rejisor" type="text">
+
+            </form>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Film adi</th>
+                    <th>Film imdb</th>
+                    <th>Category</th>
+                    <th>Rejisor</th>
+                    <th>Settings</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
